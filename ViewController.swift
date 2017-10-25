@@ -6,6 +6,12 @@
 //  Copyright © 2017 Vasudha J. All rights reserved.
 //
 
+// Note : Does not work if the response is a dictionary.
+//Decoder protocol does not conform if the objects are dictionary
+//Decoder protocol does not conform if the objects are dictionary
+//Can only be arrays and other data types
+//Looking out for an updates in NSDecoder.
+
 import UIKit
 /*
  URLs used to check JSONDecoder
